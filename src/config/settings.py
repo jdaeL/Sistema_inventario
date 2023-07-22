@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'inventoryApp'
+    'rest_framework',               # con esto funciona el djangorestframework
+    'inventoryApp',
 ]
 
 MIDDLEWARE = [
