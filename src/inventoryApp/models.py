@@ -2,7 +2,7 @@ from django.db import models
 
 class Autor(models.Model):
     # cod_autor = models.AutoField(primary_key=True)        
-    nombre = models.CharField(max_length=255)
+    nombre = models.CharField(max_length=255, unique=True)  ## UNIQUE VALUE
     
     def __str__(self):
         return self.nombre
